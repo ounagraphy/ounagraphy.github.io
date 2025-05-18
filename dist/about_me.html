@@ -22,7 +22,17 @@
   <!-- End - Fonts -->
   <script>
     tailwind.config = {
-      darkMode: 'class'
+      darkMode: 'class',
+      theme: {
+        extend:
+                {
+                  fontFamily: {
+                    'nothingyoucoulddo': ['Nothing You Could Do', 'cursive'],
+                    'signika': ['Signika', 'sans-serif'],
+                  },
+                },
+      },
+      plugins: [],
     }
   </script>
 </head>
