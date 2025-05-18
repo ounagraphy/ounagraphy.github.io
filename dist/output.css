@@ -1301,4 +1301,6 @@ video {
   .md\:transition-none {
     transition-property: none;
   }
+  .dark .dark\:bg-black { background-color: #000; }
+  .dark .dark\:text-white { color: #fff; }
 }
